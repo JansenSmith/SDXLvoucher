@@ -8,7 +8,7 @@ File f = ScriptingEngine
 	.fileFromGit(
 		"https://github.com/JansenSmith/SDXLvoucher.git",//git repo URL
 		"refs/heads/main",//branch
-		"lightbulb-filament-eureka.svg"// File from within the Git repo
+		"JanKal_SDXLvoucher.svg"// File from within the Git repo
 	)
 println "Extruding SVG "+f.getAbsolutePath()
 SVGLoad s = new SVGLoad(f.toURI())
