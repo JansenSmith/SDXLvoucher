@@ -81,5 +81,6 @@ voucher4 = voucher.setName("voucher4").clone()
 
 //println(playfulFont.getFontNames())
 
-return [voucher1, voucher2, voucher3, voucher4]
+return [voucher1
+, voucher2, voucher3, voucher4]
 //return ribbonText
